@@ -1,0 +1,100 @@
+
+{
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.cursorSmoothCaretAnimation":"on",
+  "editor.cursorBlinking": "expand",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "remote.SSH.remotePlatform": {
+    "192.168.0.118": "linux"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "blade.format.enable": true,
+  "bladeFormatter.format.noMultipleEmptyLines": true,
+  "laravelGoto.staticFileExtensions": [
+    "js",
+    "ts",
+    "jsx",
+    "vue",
+    "css",
+    "scss",
+    "sass",
+    "less",
+    "styl",
+    "htm",
+    "html",
+    "xhtml",
+    "xml",
+    "log",
+    "blade.php",
+    "php"
+  ],
+  "[blade]": {
+    "editor.defaultFormatter": "onecentlin.laravel-blade"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vscode-edge-devtools.webhintInstallNotification": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#00003f",
+    "editorGroupHeader.tabsBackground": "#00003f",
+    "sideBar.background": "#191846",
+    "titleBar.activeBackground": "#00003f",
+    "minimap.background": "#141422",
+    "tab.activeBackground": "#00003f",
+    "tab.inactiveBackground": "#2c2c54",
+    "terminal.border": "#2c2c54",
+    "terminal.background": "#2c2c54",
+    "statusBar.background": "#00003f",
+    "scrollbarSlider.background": "#00003f",
+    "scrollbarSlider.hoverBackground": "#706fd3",
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Monokai Vibrant - No Italics",
+        "scope": [
+          "comment",
+          "string.comment",
+          "variable.language",
+          "keyword",
+          "storage",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+        }
+      }
+    ],
+    "comments": "#727d85"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Andromeda",
+  "workbench.view.alwaysShowHeaderActions": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "window.commandCenter": true,
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.hover.enabled": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.enableBell": true,
+  "prettier.proseWrap": "always",
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+}
