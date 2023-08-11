@@ -97,4 +97,12 @@
   "prettier.proseWrap": "always",
   "prettier.singleQuote": true,
   "prettier.arrowParens": "avoid",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "window.zoomLevel": 1
 }
